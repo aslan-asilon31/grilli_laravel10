@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('category_master_id')->nullable();
             $table->string('status_id')->nullable();
+            $table->string('image_banner')->nullable();
             $table->string('name')->nullable();
             $table->string('desc')->nullable();
             $table->string('lang')->default('en');

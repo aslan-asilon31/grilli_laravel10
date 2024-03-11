@@ -18,10 +18,13 @@ return new class extends Migration
             $table->string('category_master_id')->nullable();
             $table->integer('price_master_id')->nullable();
             $table->integer('image_master_id')->nullable();
+            $table->string('image_banner')->nullable();
             $table->string('name')->nullable();
             $table->string('barcode')->nullable();
             $table->integer('is_sold')->nullable();
-            $table->string('size')->nullable();
+            $table->string('desc1')->nullable();
+            $table->string('desc2')->nullable();
+            $table->string('recipe_desc')->nullable();
             $table->integer('rating')->nullable();
             $table->text('wishlist')->nullable();
             $table->string('lang')->default('en');
